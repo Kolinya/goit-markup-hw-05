@@ -46,8 +46,7 @@ body {
 *:focus,
 .nav-list,
 .hero-button {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 ul {
   list-style: none;
