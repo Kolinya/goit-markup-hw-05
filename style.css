@@ -540,6 +540,62 @@ button {
 .social-links a:focus {
   background-color: var(--accent-color);
 }
+.form {
+  display: flex;
+  margin-left: 93px;
+}
+.form-label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.9;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.form-input {
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+:placeholder-shown {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.8;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.submit {
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 28px;
+  border: 0px;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submit::after{
+  im
+}
 /* PORTFOLIO */
 .button-flex {
   display: flex;
